@@ -1,0 +1,117 @@
+body{
+	background-image:  url("../images/background.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+	max-width: 100%;
+}
+
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: yellow;
+}
+
+.wrapper{
+	width: 100%;
+	min-width: 100%;
+	height: auto;
+}
+
+.right_header,
+.left_header{
+	width: 50%;
+	height: auto;
+	color: #FAFAFA;
+}
+
+.right_header{
+	float: right;
+}
+
+.left_header{
+	float: left;
+}
+
+.clearfix::after,
+.clearfix::before{
+	display: table;
+	content: '';
+	clear: both;
+}
+
+
+@media (min-width: 796px) {
+
+	/* Header Style starts here*/
+
+	.left_header h4{
+		display: inline-block;
+		font-weight: 100;
+		margin: 0 1em 0 1em;
+		font-size: 18px;
+	}
+
+	.right_header ul{
+		margin-top: 34px;
+	}
+	
+
+	.img_holder{
+		display: inline-block;
+	    margin: 14px;
+	    vertical-align: middle;
+	}	
+
+	.login_holder,
+	.social_login{
+		display: inline-block;
+		width: 22%;
+		height: auto;
+		text-align: center;
+		float: left;
+		margin-right: 2%;
+	}
+
+	.login_holder input,
+	.login_holder button{
+		width: 100%;
+		height: 35px;
+		border-radius: 10px 10px 0 0;
+		border: 0;
+		padding: 6px;
+	}
+	
+	.login_holder button,
+	.inner_social_login{
+		background-color: #F58E22;
+		color: #FAFAFA;
+	}
+
+	.social_login {
+		height: 35px;
+	}
+
+	.inner_social_login{
+		border-radius: 10px 10px 0 0;
+
+	}
+
+	.inner_social_login > span {
+		width: 100%;
+	    display: inline-block;
+	    padding: 4px;
+	    font-size: 24px;
+	}
+
+	/*Header Style Ends Here */
+
+
+	.container{
+		width: 80%;
+		margin: 0 auto;
+		height: calc(100vh - 80px);
+	}
+}
