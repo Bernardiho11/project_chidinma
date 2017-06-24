@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>MvReg(Your Motor Vehicle Registration Portal: Sign up to register yout ride)</title>
+<style type="text/css">
+   body{
+	   background-image:url();
+	   background-size:cover;
+}
+
+.aa{
+	width:350px;
+	height:330px;
+	background-color: rgba(0,0,0,0.3);
+	margin: 0 auto;
+	margin-top:30px;
+	padding-top:31px;
+	padding-bottom:8px;
+	padding-left:120px;
+	border-radius:15px;
+	-webkit-border-radius:15px;
+	-o-border-radius:15px;
+	-moz-border-radius:15px;
+	color:#2F002F;
+	border-right:4px solid rgba(0,0,0,0.6);
+		box-shadow:0 0 1px 1px #0A0A0A;
+}
+
+.aa:hover{
+	box-shadow:inset o -4px rgba(0,0,0,0.4);
+}
+
+.aa input{
+	width:67%;
+	height:25px;
+	border:2px;
+	border-radius:3px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	-moz-border-radius:5px;
+	padding:5px;
+	box-shadow:0 0 1px 1px #CCCCCC;
+
+}
+
+input:valid{
+	background-image:url(images.jpg);
+	background-repeat:no-repeat;
+	background-size:10%;
+	background-position:right;
+}
+
+input:invalid{
+	background-image:url(error-icon.png);
+	background-repeat:no-repeat;
+	background-size:10%;
+	background-position:right;
+}
+
+
+
+select{
+	width:70%;
+	height:30px;
+	padding: 16px 20px; 
+	border:2px thin #C9F;
+	border-radius:4px;
+	background-color:f1f1f1;
+
+}
+
+button[type= submit]{
+	background-color:#4caf50;
+	border:1px solid #093;
+	color:white;
+	padding:20px; 
+	text-decoration:none;
+	margin:4px 2px;
+	cursor:pointer;
+	width:40%;
+	padding-top:3px;
+	padding-left:20px;
+	border-radius:0px;
+	box-shadow:0 0 1px 1px #C4FF88;
+	height:30px;
+		
+}
+
+h1 {
+	color: #01cd5c;
+}
+h4 {
+	color: #71FF9B;
+}
+.Maindiv .navdiv ul li a {
+	color: #D8D8D8;
+}
+</style>
+
+</head>
+
+<body>
+    <div class="Maindiv">
+    <div class="logo"><img src="corpersnest-logo.png" width="350" height="60" /></div>
+        <div class="navdiv">  
+            <ul>
+                 <li><a href="#">About Us</a></li>
+                 <li><a href="#">Our Services</a></li>
+                 <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+  
+   <p><center>
+   <h1> Get easy travel ride to your NYSC camp across all Nigerian states.</h1>
+                <h4><em>Subscribe Now!</em></h4>
+   </p> 
+    </center></div>
+<div class="aa">
+              <form name="form" method="POST" action="<?php echo $editFormAction; ?>">
+                <input type="text" name="u" placeholder="Username" required="please fill out" />
+                <br /><br />
+                <input type="email" name="e" placeholder="E-mail" required="please fill out" /><br /><br />
+                <input type="phone" name="n" placeholder="0805 254 0411" required="please fill out" /><br /><br />
+                 <label for="f"></label>
+                 <select name="f" size="1" id="f">
+                   <option selected="selected">Travelling From</option>
+                   <option>Abia</option>
+                   <option>Adamawa</option>
+                   <option>Akwa Ibom</option>
+                   <option>Anambra</option>
+                   <option>Bauchi</option>
+                   <option>Benue</option>
+                   <option>Borno</option>
+                   <option>Cross-River</option>
+                   <option>Delta</option>
+                   <option>Ebonyi</option>
+                   <option>Edo</option>
+                   <option>Ekiti</option>
+                   <option>Enugu</option>
+                   <option>Federal Capital Territory</option>
+                   <option>Gombe</option>
+                   <option>Imo</option>
+                   <option>Jigawa</option>
+                   <option>Kaduna</option>
+                   <option>Kebbi</option>
+                   <option>Kano</option>
+                   <option>Kogi</option>
+                   <option>Kastina</option>
+                   <option>Kwara</option>
+                   <option>Lagos</option>
+                   <option>Nasarawa</option>
+                   <option>Niger</option>
+                   <option>Ogun</option>
+                   <option>Ondo</option>
+                   <option>Osun</option>
+                   <option>Oyo</option>
+                   <option>Plateau</option>
+                   <option>Rivers</option>
+                   <option>Sokoto</option>
+                   <option>Taraba</option>
+                   <option>Yobe</option>
+                   <option>Zamfara</option>
+                 </select><br /><br />
+                <label for="t"></label>
+                 <select name="t" size="1" id="t">
+                   <option selected="selected">Travelling To</option>
+                   <option>Abia</option>
+                   <option>Adamawa</option>
+                   <option>Akwa Ibom</option>
+                   <option>Anambra</option>
+                   <option>Bauchi</option>
+                   <option>Benue</option>
+                   <option>Borno</option>
+                   <option>Cross-River</option>
+                   <option>Delta</option>
+                   <option>Ebonyi</option>
+                   <option>Edo</option>
+                   <option>Ekiti</option>
+                   <option>Enugu</option>
+                   <option>Federal Capital Territory</option>
+                   <option>Gombe</option>
+                   <option>Imo</option>
+                   <option>Jigawa</option>
+                   <option>Kaduna</option>
+                   <option>Kebbi</option>
+                   <option>Kano</option>
+                   <option>Kogi</option>
+                   <option>Kastina</option>
+                   <option>Kwara</option>
+                   <option>Lagos</option>
+                   <option>Nasarawa</option>
+                   <option>Niger</option>
+                   <option>Ogun</option>
+                   <option>Ondo</option>
+                   <option>Osun</option>
+                   <option>Oyo</option>
+                   <option>Plateau</option>
+                   <option>Rivers</option>
+                   <option>Sokoto</option>
+                   <option>Taraba</option>
+                   <option>Yobe</option>
+                   <option>Zamfara</option>
+                 </select><br /><br />
+           <button type="submit" value="SUBSCRIBE" align="middle" />SUBSCRIBE      
+              <input type="hidden" name="MM_insert" value="form" />
+              </form>
+
+        </div>      
+  
+  
+  </div>
+</body>
+</html>
