@@ -114,4 +114,16 @@ footer{
 		margin: 0 auto;
 		height: calc(100vh - 80px);
 	}
+
+	/*Form Style Starts Here*/
+
+	.form_header{
+		text-align: center;
+	}
+	
+	.form_header h2{
+		font-size: 30pt;
+	}
+
+	/*Form Style Ends Here*/
 }

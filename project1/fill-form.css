@@ -152,6 +152,21 @@ h2 {
     top: 42%;
     color: black; 
 
+} 
+
+.inner_form{
+    background-image: url(../images/SignUp-16.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    background-size: 30px;
+
+}
+
+#date_of_birth{
+    background-image: url(../images/calendar.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    background-size: 23px;
 }
 
 
