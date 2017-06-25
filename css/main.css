@@ -87,7 +87,7 @@ footer{
 	
 	.login_holder button,
 	.inner_social_login{
-		background-color: #F58E22;
+		background-color: #FAA94D;
 		color: #FAFAFA;
 	}
 
@@ -224,6 +224,10 @@ footer{
 		height: 20px;
 		display: inline-block;
     	margin: 40px 0 0 0px;
+	}
+
+	.form_content p{
+		font-size: 10pt
 	}
 	/*Form Style Ends Here*/
 }
