@@ -17,7 +17,7 @@ footer{
 .wrapper{
 	width: 100%;
 	min-width: 100%;
-	height: auto;
+	min-height: calc(100vh - 80px);
 }
 
 .right_header,
@@ -112,17 +112,78 @@ footer{
 	.container{
 		width: 80%;
 		margin: 0 auto;
-		height: calc(100vh - 80px);
 	}
 
 	/*Form Style Starts Here*/
 
 	.form_header{
 		text-align: center;
+		margin: 40px 0 0 0;
+    	color: #FAFAFA;
 	}
 	
 	.form_header h2{
-		font-size: 30pt;
+		font-size: 35pt;
+		margin: 0;
+	}
+
+	.form_header p{
+		margin: 0 0 35px 0;
+		font-size: 15pt;
+	}
+
+
+	.sign_up_form {
+		background-color: rgba(251,186,116, .6); 
+		width: 480px;
+    	height: 480px;
+    	margin: 0 auto;
+    	padding: 50px 60px;
+	    -o-border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    -webkit-border-radius: 50%;
+    	border-radius: 50%;
+	}
+
+	.form_content{
+		text-align: center;
+		height: auto;
+		color: #FAFAFA;
+	}
+
+	.form_content h2{
+		font-size: 22pt;
+		margin: 0 0 30px 0;
+	}
+
+	.social_media_login{
+		margin: 0 0 10px 0;
+	}
+
+	.social_media_login span{
+		display: block;
+		margin: 10px 0 10px 0;
+		font-size: 15pt;
+	}
+	
+	#img{
+		margin: 0 0 0 10px;
+	}	
+
+	.social_media_login img{
+		margin: 0 10px 0 0;
+	}
+
+	.login_input input{
+	    width: 100%;
+		display: block;
+	    margin: 10px 0 0 0;
+	    padding: 10px;
+	    border: 0;
+	    -o-border-radius: 5px;
+	    -moz-border-radius: 5px;
+	    -webkit-border-radius: 5px;
+    	border-radius: 5px;
 	}
 
 	/*Form Style Ends Here*/
