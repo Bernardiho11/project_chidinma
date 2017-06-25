@@ -6,6 +6,7 @@ body{
 	-o-background-size:cover;
 	background-size: cover;
 	max-width: 100%;
+	font-family: 'Rubik';
 }
 
 footer{
@@ -185,6 +186,18 @@ footer{
 	    -webkit-border-radius: 5px;
     	border-radius: 5px;
 	}
-
+	
+	.signup_btn{
+		width: 100%;
+	    display: block;
+	    margin: 10px 0 0 0;
+	    padding: 10px;
+	    border: 1px solid #FAFAFA;
+	    -o-border-radius: 5px;
+	    -moz-border-radius: 5px;
+	    -webkit-border-radius: 5px;
+	    border-radius: 5px;
+	    background-color: #F58E22;
+	}
 	/*Form Style Ends Here*/
 }
