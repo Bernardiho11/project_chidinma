@@ -93,9 +93,22 @@ footer{
 
 	.social_login {
 		height: 35px;
+		cursor: pointer;
+		position: relative;
+	}
+	
+	#drp_down{
+		display: none;
+	}
+
+	.inner_social_login:hover #drp_down{
+		cursor: pointer;
+		display: block;
 	}
 
 	.inner_social_login{
+		position: absolute;
+    	width: 100%;
 		border-radius: 10px 10px 0 0;
 
 	}
@@ -105,8 +118,13 @@ footer{
 	    display: inline-block;
 	    padding: 4px;
 	    font-size: 20px;
+	    margin: 0 0 5px 0;
 	}
-
+	
+	.inner_social_login img{
+		margin: 5px 0 7px 0;
+    	width: 90%;
+	}
 	/*Header Style Ends Here */
 
 
@@ -172,6 +190,7 @@ footer{
 	}	
 
 	.social_media_login img{
+		cursor: pointer;
 		margin: 0 10px 0 0;
 	}
 
